@@ -166,6 +166,7 @@ Processing attribute, tag names and values
 Since 0.4.1 you can optionally provide the parser with attribute name and tag name processors as well as element value processors (Since 0.4.14, you can also optionally provide the parser with attribute value processors):
 
 ```javascript
+var parseString = require('xml2js').parseString;
 
 function nameToUpperCase(name){
     return name.toUpperCase();
